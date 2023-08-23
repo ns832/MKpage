@@ -1,0 +1,314 @@
+.ken,
+.london,
+.michaelKorsBluewater,
+.milesAway,
+.seeStoreDetails {
+  font-family: "Michael Kors", sans-serif;
+  position: absolute;
+  left: 0;
+  letter-spacing: 0.55px;
+  display: flex;
+  align-items: center;
+}
+.michaelKorsBluewater {
+  top: 17px;
+  font-size: var(--font-size-xl);
+  width: 257px;
+  height: 27px;
+}
+.ken,
+.london,
+.milesAway,
+.seeStoreDetails {
+  top: 53px;
+  width: 54px;
+  height: 17px;
+}
+.ken,
+.milesAway,
+.seeStoreDetails {
+  left: 61px;
+  width: 27px;
+}
+.milesAway,
+.seeStoreDetails {
+  top: 73px;
+  left: 0;
+  width: 114px;
+  height: 18px;
+}
+.seeStoreDetails {
+  top: 0;
+  width: 132px;
+  height: 11px;
+}
+.buttonObjectObject {
+  position: absolute;
+  top: 102px;
+  left: 0;
+  border-bottom: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 112px;
+  height: 13px;
+}
+.buttonAddToBagCollect {
+/* .smallChild  */
+  width: 329px;
+  position: absolute;
+  top: 70px;
+  /* left: 286px; */
+  left: 580px;
+}
+.smallChild {
+  top: 0;
+  left: 7.7px;
+  border-radius: 50%;
+  background-color: var(--color-forestgreen);
+  width: 28.73px;
+  height: 26.97px;
+}
+.s,
+.small {
+  width: 43.89px;
+}
+.s {
+  position: absolute;
+  top: 8.48px;
+  left: 0;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9.97px;
+}
+.small {
+  top: 35.03px;
+  left: 506px;
+  height: 26.97px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.m,
+.meduimChild,
+.small {
+  position: absolute;
+}
+.meduimChild {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-darkorange);
+  width: 28.73px;
+  height: 26.97px;
+}
+.m {
+  top: 11.33px;
+  left: 4.02px;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20.97px;
+  height: 4.05px;
+}
+.largeChild,
+.meduim {
+  width: 28.73px;
+  height: 26.97px;
+}
+.meduim {
+  position: absolute;
+  top: 35px;
+  left: 550.02px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.largeChild {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-red-200);
+}
+.l,
+.large,
+.largeChild {
+  position: absolute;
+}
+.l {
+  top: 11.33px;
+  left: 6.61px;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15.52px;
+  height: 4.05px;
+}
+.large {
+  top: 35px;
+  left: 586.27px;
+  width: 28.73px;
+  height: 26.97px;
+  text-align: center;
+  font-size: var(--font-size-5xl);
+}
+.divstoreDetails {
+  position: relative;
+  width: 709px;
+  height: 172px;
+  /* max-width: 659px; */
+}
+.addToBag {
+  position: relative;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.buttonAddToBagCollect1,
+.item {
+  box-sizing: border-box;
+  align-items: flex-start;
+}
+.buttonAddToBagCollect1 {
+  position: absolute;
+  top: 70px;
+  left: 286px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray-200);
+  width: 329px;
+  display: flex;
+  flex-direction: row;
+  padding: 15.5px 242.97999572753906px var(--padding-mini-5)
+    243.02000427246094px;
+  justify-content: center;
+  min-height: 45px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+.item {
+  align-self: stretch;
+  margin: 0 !important;
+  width: calc(100% - 92px);
+  top: 0;
+  right: 0;
+  left: 92px;
+  border-bottom: 1px solid var(--color-gainsboro-100);
+  flex-direction: column;
+  padding: 28px var(--padding-0) var(--padding-2xl);
+  justify-content: flex-start;
+  min-height: 119px;
+  z-index: 0;
+}
+.heading6,
+.item,
+.list {
+  position: absolute;
+  display: flex;
+}
+.list {
+  width: calc(100% - 54px);
+  top: 771px;
+  right: 25px;
+  left: 29px;
+  overflow-y: auto;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) 184.5px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+}
+.heading6 {
+  top: 36px;
+  left: 149px;
+  letter-spacing: 1.2px;
+  line-height: 33.6px;
+  align-items: center;
+  justify-content: center;
+  width: 654px;
+  height: 35px;
+  font-weight: 600;
+}
+.divclickCollectSection {
+  position: absolute;
+  width: calc(100% - 674px);
+  top: 0;
+  right: 674px;
+  left: 0;
+  background-color: var(--color-white);
+  height: 578px;
+  font-size: var(--font-size-5xl);
+}
+.purchaseNowCollect {
+  margin: 0;
+  text-align: center;
+  padding-left: 30px;
+}
+.purchaseNowCollectContainer {
+  position: relative;
+  letter-spacing: 0.55px;
+  font-weight: 100;
+  
+}
+.pclickCollectSubtitle {
+  position: absolute;
+  top: 71px;
+  left: calc(50% - 188.5px);
+  width: 320px;
+  height: 61px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 9.279999732971191px var(--padding-0)
+    8.220000267028809px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 320px;
+  font-size: var(--font-size-2xs);
+}
+.vectorIcon {
+  position: absolute;
+  height: 2%;
+  width: 5%;
+  top: 1.28%;
+  right: 2.78;
+  bottom: 97.83%;
+  left: 95.16%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  cursor: pointer;
+}
+
+
+.listParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 971px;
+  /* height: 2347px; */
+  height: 715px;
+  overflow-y: auto;
+}
+.nearbyListContainer {
+  position: relative;
+  width: 971px;
+  /* height: 1229px; */
+  height: 700px;
+  overflow-y: auto;
+  max-width: 100%;
+  /* max-height: 100%; */
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  font-family: sans-serif;
+  /* font-family: var(--font-inter); */
+}

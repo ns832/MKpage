@@ -1,0 +1,64 @@
+.linkHome {
+  position: relative;
+  letter-spacing: 0.55px;
+  line-height: 11px;
+  text-transform: capitalize;
+}
+.item {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 0.8400001525878906px var(--padding-0)
+    var(--padding-0);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8.16px;
+}
+.itemStretch {
+  position: relative;
+  letter-spacing: 0.55px;
+  line-height: 11px;
+  text-transform: capitalize;
+  color: var(--color-dimgray);
+}
+.list {
+  position: absolute;
+  width: calc(100% - 558px);
+  top: 10px;
+  right: 280px;
+  left: 278px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 1126px var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 7px;
+}
+.section {
+  position: relative;
+  width: 1920px;
+  height: 3162.97px; 
+  /* height: 2800px;
+  padding-bottom: 500px; */
+}
+.divmkPdpPage,
+.dressPage {
+  width: 1617px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.dressPage {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  overflow-y: auto;
+  flex-direction: row;
+  text-align: left;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+  max-width: 100%;
+  overflow-x: hidden;
+}

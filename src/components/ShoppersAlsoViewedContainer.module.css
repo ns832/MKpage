@@ -1,0 +1,177 @@
+.shoppersAlsoViewed {
+  position: relative;
+  text-transform: uppercase;
+}
+.divproductImageContainerIcon {
+  position: relative;
+  width: 337.5px;
+  height: 454.66px;
+  object-fit: cover;
+}
+.quickview {
+  position: relative;
+  letter-spacing: 1.6px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+.buttonQuickview,
+.divimagePanel,
+.divquickviewContainer,
+.link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonQuickview {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-5xs-5) 134.44000244140625px var(--padding-5xs-5)
+    133.05999755859375px;
+}
+.divimagePanel,
+.divquickviewContainer,
+.link {
+  width: 337.5px;
+  box-sizing: border-box;
+}
+.divquickviewContainer {
+  border-top: 1px solid var(--color-lightgray-200);
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
+  margin-top: -0.01px;
+}
+.divimagePanel,
+.link {
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) 0.010009765625px;
+}
+.divimagePanel {
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
+  z-index: 1;
+}
+.itemMichael {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.ribbedStretchKnit {
+  position: relative;
+  letter-spacing: 0.8px;
+}
+.itemLink {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 6.720001220703125px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 51.70000076293945px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.item22000,
+.itemLink1 {
+  position: absolute;
+  top: 62px;
+  left: 0;
+}
+.itemLink1 {
+  top: 84px;
+  font-size: var(--font-size-2xs);
+  letter-spacing: 0.8px;
+  color: var(--color-black);
+}
+.list {
+  position: relative;
+  width: 337.5px;
+  height: 97px;
+  z-index: 0;
+  margin-top: -0.01px;
+  text-align: left;
+  color: var(--color-gray-300);
+}
+.divproductTileRfk {
+  width: 337.5px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) 50.010009765625px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divswiperWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-smi);
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  z-index: 0;
+}
+.vectorIcon {
+  position: relative;
+  width: 11px;
+  height: 35px;
+}
+.image {
+  width: 11px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.buttonNextSlide,
+.divswiperContainer,
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.buttonNextSlide {
+  margin: 0 !important;
+  position: absolute;
+  top: 194.82px;
+  right: 0;
+  background-color: var(--color-gray-400);
+  width: 29px;
+  padding: var(--padding-mini) var(--padding-4xs);
+  box-sizing: border-box;
+  justify-content: center;
+  z-index: 1;
+}
+.divswiperContainer {
+  width: 1380px;
+  overflow: hidden;
+  justify-content: flex-start;
+  position: relative;
+  font-size: var(--font-size-3xs);
+}
+.section {
+  position: absolute;
+  height: calc(100% - 2414.34px);
+  top: 1700px;
+  /* bottom: 113.26px; */
+  left: 30px;
+  width: 1380px;
+  display: flex;
+  flex-direction: column;
+  padding: 0.969970703125px var(--padding-0);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-17xl);
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

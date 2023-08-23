@@ -1,0 +1,73 @@
+.weThinkYou {
+  position: relative;
+  text-transform: uppercase;
+}
+.divswiperWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) var(--padding-0) var(--padding-4xl);
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  z-index: 0;
+}
+.vectorIcon {
+  position: relative;
+  width: 11px;
+  height: 35px;
+}
+.buttonNextSlide,
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.image {
+  width: 11px;
+  overflow: hidden;
+  flex-shrink: 0;
+  justify-content: flex-start;
+}
+.buttonNextSlide {
+  margin: 0 !important;
+  position: absolute;
+  top: 194.83px;
+  right: 0;
+  background-color: var(--color-gray-400);
+  width: 29px;
+  padding: var(--padding-mini) var(--padding-4xs);
+  box-sizing: border-box;
+  justify-content: center;
+  z-index: 1;
+}
+.divswiperContainer,
+.section {
+  width: 1380px;
+  display: flex;
+  justify-content: flex-start;
+}
+.divswiperContainer {
+  overflow: hidden;
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  font-size: var(--font-size-3xs);
+}
+.section {
+  position: absolute;
+  height: calc(100% - 2415.31px);
+  top: 900px;
+  /* bottom: 862.74px; */
+  left: 30px;
+  flex-direction: column;
+  padding: var(--padding-20xl) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  align-items: center;
+  gap: var(--gap-17xl);
+  min-width: 1380px;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

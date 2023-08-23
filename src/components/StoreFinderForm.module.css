@@ -1,0 +1,106 @@
+.divsmall12 {
+  position: absolute;
+  height: calc(100% - 142px);
+  width: calc(100% - 258px);
+  top: 10px;
+  right: 258px;
+  bottom: 132px;
+  left: 0;
+  max-width: 659px;
+}
+/*This applies to the entire thing, like the text before the input, the input box and the right of it*/
+.inputLabel {
+  width: 917px;
+  border: 1px;
+  background-color: transparent;
+  position: absolute;
+  /* top: 25px; */
+  left: calc(50% - 458.5px);
+  font-size: small;
+}
+.userInput{
+  width: 917px;
+  height: 30px;
+  border: 1px;
+  background-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: calc(50% - 458.5px);
+  border-style: solid;
+  border-radius: 0;
+  font-weight: 100;
+}
+/*The blue find stores buton, currently works*/
+.buttonFindStores{
+  width: 100%;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  left: 0;
+  border: 1px solid var(--color-black);
+  background-color: black;
+  border-radius: 0;
+  font-weight: 100;
+
+}
+
+.buttonFindStores:hover {
+  background-color: #000F;
+  border-color:  black;
+}
+
+
+/* .buttonFindStores:hover, .buttonFindStores:focus {
+    background-color:black;
+    border-color: black;
+ } */
+
+/* .buttonFindStores:click {
+  background-color: #000F;
+  border-color: black;
+  } */
+  
+.placeholderShowingResults {
+  position: relative;
+  letter-spacing: 0.6px;
+  line-height: 15px;
+  text-transform: lowercase;
+  width: 910px;
+}
+/* The "Showing Results" Message, currently works */
+.presultmsg {
+  position: absolute;
+  width: calc(100% - 134px);
+  /* top: 129px; */
+  top: 105px;
+  right: 126px;
+  left: 0px;
+  /* display: flex; */
+  flex-direction: row;
+  /* padding: var(--padding-0) var(--padding-419xl) 0.5900001525878906px
+    var(--padding-0); */
+  padding: var(--padding-10xl) var(--padding-419xl) var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.showingResults {
+  font-size: small;
+}
+
+
+
+.form {
+  position: absolute;
+  top: 565px;
+  left: calc(50% - 118.5px);
+  width: 917px;
+  height: 155px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+  font-family: sans-serif;
+  font-weight:100;
+  /* font-family: var(--font-inter); */
+}

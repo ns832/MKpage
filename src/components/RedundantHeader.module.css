@@ -1,0 +1,274 @@
+/* .sale {
+  position: relative;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36.04px;
+  height: 12px;
+  flex-shrink: 0;
+}
+.link {
+  flex: 1;
+  border-bottom: 1px solid var(--color-white);
+  box-sizing: border-box;
+  height: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.finalReductions {
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-3xs);
+  letter-spacing: 1px;
+}
+.banner1,
+.ppphmessagecontent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.ppphmessagecontent {
+  flex: 1;
+  padding: var(--padding-12xs) 604.7999877929688px var(--padding-0)
+    577.3599853515625px;
+  justify-content: center;
+  gap: var(--gap-8xl);
+}
+.banner1 {
+  align-self: stretch;
+  background-color: var(--color-black);
+  flex-wrap: wrap;
+  padding: var(--padding-xs) var(--padding-173xl) var(--padding-3xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  max-height: 80px;
+}
+.new {
+  position: relative;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.itemLinkNewMainnavkey,
+.itemLinkWomenMainnavk {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.itemLinkNewMainnavkey {
+  flex: 1;
+  background-color: var(--color-white);
+  padding: var(--padding-10xs) 5.270000457763672px var(--padding-9xs)
+    var(--padding-8xs);
+  justify-content: center;
+}
+.itemLinkWomenMainnavk {
+  padding: var(--padding-10xs) 6.060001373291016px var(--padding-9xs)
+    var(--padding-8xs);
+}
+.itemLinkMenMainnavkey,
+.itemLinkMichaelKorsCol,
+.itemLinkWomenMainnavk {
+  flex: 1;
+  background-color: var(--color-white);
+  justify-content: center;
+}
+.itemLinkMenMainnavkey {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) 5.18999862670898var (--padding-9xs)
+    var(--padding-9xs) var(--padding-8xs);
+  align-items: flex-start;
+}
+.itemLinkMichaelKorsCol {
+  padding: var(--padding-10xs) 9.330001831054688px var(--padding-9xs)
+    var(--padding-3xs);
+}
+.itemLinkHandbagsMainna,
+.itemLinkMichaelKorsCol,
+.itemLinkShoesMainnavk {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.itemLinkHandbagsMainna {
+  flex: 1;
+  background-color: var(--color-white);
+  padding: var(--padding-10xs) var(--padding-5xs-5) var(--padding-9xs)
+    var(--padding-7xs);
+  justify-content: center;
+}
+.itemLinkShoesMainnavk {
+  padding: var(--padding-10xs) 5.0800018310546875px var(--padding-9xs)
+    var(--padding-7xs);
+}
+.itemLinkAccessoriesMain,
+.itemLinkShoesMainnavk,
+.itemLinkWatchesMainnav {
+  flex: 1;
+  background-color: var(--color-white);
+  justify-content: center;
+}
+.itemLinkWatchesMainnav {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) 6.73000335693359var (--padding-9xs)
+    var(--padding-9xs) var(--padding-8xs);
+  align-items: flex-start;
+}
+.itemLinkAccessoriesMain {
+  padding: var(--padding-10xs) 7.55999755859375px var(--padding-9xs)
+    var(--padding-5xs);
+}
+.itemLinkAccessoriesMain,
+.itemLinkSaleMainnavke,
+.navigationList {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.itemLinkSaleMainnavke {
+  flex: 1;
+  background-color: var(--color-white);
+  padding: var(--padding-10xs) 4.840000152587891px var(--padding-9xs)
+    var(--padding-7xs);
+  justify-content: center;
+  color: var(--color-red-200);
+}
+.navigationList {
+  position: absolute;
+  top: 99px;
+  left: -241px;
+  width: 1574px;
+  overflow: hidden;
+  padding: var(--padding-8xs) 393.0999450683594px var(--padding-8xs)
+    393.0799865722656px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 39.99px;
+}
+.heading1LinkPictureL {
+  position: absolute;
+  top: calc(50% + 7.17px);
+  left: calc(50% - 185px);
+  width: 265px;
+  height: 25.67px;
+  object-fit: cover;
+}
+.svgIcon,
+.uk {
+  position: relative;
+}
+.svgIcon {
+  width: 21px;
+  height: 15px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.uk {
+  line-height: 12px;
+}
+.listButton {
+  flex: 1;
+  height: 17px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.divregionSelectWrap {
+  width: 469.98px;
+  display: flex;
+  flex-direction: row;
+  padding: 14.329999923706055px 396.21002197265625px 8.670000076293945px
+    var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 479.99951171875px;
+}
+.imageIcon {
+  position: relative;
+  width: 189.97px;
+  height: 90px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.itemLinkSearchIcon {
+  position: absolute;
+  top: -15.6px;
+  left: calc(50% - 93px);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.list {
+  flex: 1;
+  position: relative;
+  height: 30px;
+}
+.divuserItems {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-mini) var(--padding-0)
+    737.02001953125px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divutilityNav,
+.frame {
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+.divutilityNav {
+  left: calc(50% - 720px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: var(--padding-0) 14.999969482421875px var(--padding-0)
+    var(--padding-mini);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 1440px;
+}
+.frame {
+  left: -11px;
+  height: 65.67px;
+  overflow: hidden;
+}
+.divmkNav {
+  flex: 1;
+  position: relative;
+  height: 130.67px;
+}
+.banner,
+.divheaderhambergermenu {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divheaderhambergermenu {
+  background-color: var(--color-white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: var(--color-black);
+}
+.banner {
+  border-bottom: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-12xs);
+  max-width: 1920px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+} */

@@ -1,0 +1,134 @@
+.divproductImageContainerIcon {
+  position: relative;
+  width: 337.5px;
+  height: 454.66px;
+  object-fit: cover;
+}
+.quickview {
+  position: relative;
+  letter-spacing: 1.6px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+.buttonQuickview,
+.divimagePanel,
+.divquickviewContainer,
+.link {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonQuickview {
+  flex: 1;
+  background-color: var(--color-whitesmoke-100);
+  flex-direction: row;
+  padding: var(--padding-5xs-5) 134.44000244140625px var(--padding-5xs-5)
+    133.05999755859375px;
+}
+.divimagePanel,
+.divquickviewContainer,
+.link {
+  width: 337.5px;
+}
+.divquickviewContainer {
+  border-top: 1px solid var(--color-lightgray-200);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
+}
+.divimagePanel,
+.link {
+  flex-direction: column;
+}
+.divimagePanel {
+  background-color: var(--color-whitesmoke-200);
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-0) var(--padding-0);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.itemMichael {
+  position: absolute;
+  top: 12px;
+  left: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.statusPrintStretch {
+  position: relative;
+  letter-spacing: 0.8px;
+}
+.itemLink {
+  position: absolute;
+  top: 34px;
+  left: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-0) 6.1399993896484375px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-height: 51.70000076293945px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.was23500 {
+  position: relative;
+}
+.divlistprice {
+  width: 215px;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-133xl) var(--padding-0)
+    var(--padding-0);
+  max-width: 215px;
+}
+.divlistprice,
+.divsaleprice,
+.item {
+  display: flex;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divsaleprice {
+  width: 215px;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-138xl) var(--padding-0)
+    var(--padding-0);
+  max-width: 215px;
+  color: var(--color-gray-300);
+}
+.item {
+  position: absolute;
+  width: 100%;
+  top: 61px;
+  right: 0;
+  left: 0;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-103xl-5) var(--padding-0)
+    var(--padding-0);
+  color: var(--color-dimgray);
+}
+.list {
+  position: relative;
+  width: 337.5px;
+  height: 87px;
+  z-index: 0;
+  text-align: left;
+  color: var(--color-gray-300);
+}
+.divproductTileRfk {
+  width: 337.5px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) var(--padding-31xl);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

@@ -1,0 +1,134 @@
+/* .smallChild {
+  width: 329px;
+  position: absolute;
+  top: 70px;
+  left: 286px;
+} */
+.button {
+  border-radius: 50%;
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  width: 28.73px;
+  height: 26.97px;
+}
+.small,
+.small {
+  top: 35px;
+  left: 760px;
+  width: 28.73px;
+  height: 26.97px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: black;
+  font: Calson 540;
+  position: absolute;
+}
+
+
+
+
+.medium,
+.medium { 
+  top: 35px;
+  left: 815px;
+  width: 28.73px;
+  height: 26.97px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: black;
+  font: Calson 540;
+  position: absolute;
+}
+.large,
+.large {
+  top: 35px;
+  left: 870px;
+  width: 28.73px;
+  height: 26.97px;
+  text-align: center;
+  font-size: var(--font-size-3xl);
+  color: black;
+  font: Calson 540;
+  position: absolute;
+}
+.s,
+.s {
+  top: 11.33px;
+  /* left: 4.02px; */
+  left: 14px;
+  width: 20.97px;
+  height: 4.05px;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  position: absolute;
+}
+.m,
+.m {
+  top: 11.33px;
+  left: 14px;
+  width: 20.97px;
+  height: 4.05px;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  position: absolute;
+}
+.l,
+.l {
+  top: 11.33px;
+  left: 14px;
+  width: 15.52px;
+  height: 4.05px;
+  letter-spacing: 1.6px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  position: absolute;
+}
+.highAvail,
+.highAvail {
+  top: 7px;
+  /* left:0; */
+  border-radius: 50%;
+  /* background-color: var(--color-forestgreen); */
+  background-color: #069C56;
+  /* width: 28.73px;
+  height: 26.97px; */
+  width: 11px;
+  height: 11px;
+  position: absolute;
+}
+.mediumAvail,
+.mediumAvail {
+  top: 7px;
+  left: 0;
+  border-radius: 50%;
+  /* background-color: var(--color-darkorange); */
+  background-color: #FF980E;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+}
+.lowAvail,
+.lowAvail {
+  top: 7px;
+  left: 0;
+  border-radius: 50%;
+  /* background-color: var(--color-red-200); */
+  background-color: #D3212C;
+  width: 11px;
+  height: 11px;
+  position: absolute;
+}
+
+

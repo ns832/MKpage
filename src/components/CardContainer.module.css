@@ -1,0 +1,63 @@
+.divimagePanelIcon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 454.66px;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 1;
+}
+.parkerMediumLeather {
+  flex: 1;
+  position: relative;
+  letter-spacing: 0.8px;
+}
+.divproductTileRfk,
+.listItemLink {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.listItemLink {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-0) 15.860000610351562px var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  max-height: 56.400001525878906px;
+  z-index: 0;
+}
+.divproductTileRfk {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-0) 14.010009765625px;
+  gap: 10.99px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}
+.was39000 {
+  flex: 1;
+  position: relative;
+}
+.divsaleprice {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-133xl) var(--padding-0)
+    var(--padding-0);
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 215px;
+}
+.itemMichael {
+  position: relative;
+  top: 0px;
+  left: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
